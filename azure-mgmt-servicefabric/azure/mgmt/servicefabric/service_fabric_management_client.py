@@ -28,9 +28,8 @@ class ServiceFabricManagementClientConfiguration(AzureConfiguration):
     Note that all parameters used to create this instance are saved as instance
     attributes.
 
-    :param credentials: Credentials needed for the client to connect to Azure.
-    :type credentials: :mod:`A msrestazure Credentials
-     object<msrestazure.azure_active_directory>`
+    :param credentials: Credentials needed for the client to connect to Azure. BLARG
+    :type credentials: msrestazure.azure_active_directory
     :param subscription_id: The customer subscription identifier
     :type subscription_id: str
     :param str base_url: Service URL
