@@ -28,7 +28,7 @@ class ServiceFabricManagementClientConfiguration(AzureConfiguration):
     Note that all parameters used to create this instance are saved as instance
     attributes.
 
-    :param credentials: Credentials needed for the client to connect to Azure. BLARG
+    :param credentials: Credentials needed for the client to connect to Azure.
     :type credentials: msrestazure.azure_active_directory
     :param subscription_id: The customer subscription identifier
     :type subscription_id: str
@@ -55,7 +55,7 @@ class ServiceFabricManagementClientConfiguration(AzureConfiguration):
 
 
 class ServiceFabricManagementClient(SDKClient):
-    """The Service Fabric Management Client is the entry point for all operations to be performed in cluster management.
+    """The Service Fabric Management Client is the entry point for cluster management operations.
 
     :ivar config: Configuration for client.
     :vartype config: ServiceFabricManagementClientConfiguration
@@ -76,7 +76,7 @@ class ServiceFabricManagementClient(SDKClient):
     :vartype service: azure.mgmt.servicefabric.operations.ServiceOperations
 
     :param credentials: Credentials needed for the client to connect to Azure.
-    :type credentials: :mod:`msrestazure.azure_active_directory`
+    :type credentials: :mod: msrestazure.azure_active_directory
     :param subscription_id: The customer subscription identifier
     :type subscription_id: str
     :param str base_url: Service URL
