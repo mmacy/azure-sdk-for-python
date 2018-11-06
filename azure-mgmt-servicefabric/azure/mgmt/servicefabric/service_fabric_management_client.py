@@ -77,8 +77,7 @@ class ServiceFabricManagementClient(SDKClient):
     :vartype service: azure.mgmt.servicefabric.operations.ServiceOperations
 
     :param credentials: Credentials needed for the client to connect to Azure.
-    :type credentials: :mod:`A msrestazure Credentials
-     object<msrestazure.azure_active_directory>`
+    :type credentials: :mod:`msrestazure.azure_active_directory`
     :param subscription_id: The customer subscription identifier
     :type subscription_id: str
     :param str base_url: Service URL
