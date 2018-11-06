@@ -56,7 +56,7 @@ class ServiceFabricManagementClientConfiguration(AzureConfiguration):
 
 
 class ServiceFabricManagementClient(SDKClient):
-    """Service Fabric Management Client
+    """The Service Fabric Management Client is the entry point for all operations to be performed in cluster management.
 
     :ivar config: Configuration for client.
     :vartype config: ServiceFabricManagementClientConfiguration
