@@ -73,8 +73,7 @@ class ContainerInstanceManagementClient(SDKClient):
     :vartype service_association_link: azure.mgmt.containerinstance.operations.ServiceAssociationLinkOperations
 
     :param credentials: Credentials needed for the client to connect to Azure.
-    :type credentials: :mod:`A msrestazure Credentials
-     object<msrestazure.azure_active_directory>`
+    :type credentials: msrestazure.azure_active_directory
     :param subscription_id: Subscription credentials which uniquely identify
      Microsoft Azure subscription. The subscription ID forms part of the URI
      for every service call.
